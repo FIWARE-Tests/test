@@ -4,7 +4,7 @@ language: minimal
 before_install: true
 install: true
 before_script: true
-script: true
+script: echo "true"
 notifications:
   webhooks:
     urls:
