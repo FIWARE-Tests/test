@@ -7,5 +7,10 @@ before_script: true
 script: true
 notifications:
   webhooks:
+    on_success: always
+    on_failure: nevert
+    on_start: never
+    on_cancel: never
+    on_error: never
     urls:
       - secure: Yp/aCk2gM0r9oB/XQP1mqkU149IdNIMGjy6P5qQTQHAjZaJCsg2egDpjIKSvUMXxEVg8Y0sIq6r74+DLbmpQmvytCyUNrfAW0FB4uP07hI8R7Ltvmn+CWkmZqpR8BbDNNQS876wM3snXfQq3rCJUVh0ein/QycKZcDIECY0mqS6u22AJ0O0frLcHohILZF1TPflJd45+vBGspf09Sye5UooIG0ro9RgfvaKSnzZb7dYcJX9iygI54MQOrMzD9wOci64Tw9Eu+7wPjY6gfXEVI3P2hUKrCsnVDtFIn7idXwQ5H/YtJvW24dpD4G3UBzO2X3EDVfnxuZ1NaEAsnURkqhI0RN5XyRUQi6OW1hNxx7QfLtk6vzX2kVO4kUz00Ql4DFGaf/SVzcsBQX+1mqOsK/4RPmFMXhtZ+wIwhIROM5m0Di4R9lKEeMkreliyA2lVuN/kJrkTaWQSNYlY1h/1aM+v5Cs+3GyPOWT5MiQsK3h5jx5yZGNnAmLzvszOwpcffdCwRaWTwtDXfXNSKt2CIexTLr2xWcacb0mulkC1eczApSD8HbR75gySpWam9xXkfHW0WEZFknYvOMO0VR0YQTRqo6fkJ1z/FZA/wyacoCPJZV4f6sNh8R2GTioJxvx3n0ttujmLAm5FP2aOywS5MUFJ3YJ5rToSWoJJG1YLC3s=
