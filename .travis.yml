@@ -7,6 +7,9 @@ before_script: true
 script: echo "true"
 notifications:
   email:
-    - reg@demin.co
+  - reg@demin.co
   on_success: always
   on_failure: never
+  webhooks:
+    urls:
+      secure: oiF6d6wik/n6XIfzgXN/H5AZ//fYzP/VEv3iBjmOHB1S3hwobbLVIZPI0VPS2P0RjdXaiYUJnXuU+ElkZ86pnDJqnK5VSBJckKJacCnQkeYnXA2hUp0jM0Zfh0oD8zDNpT1QmwybofyNxSQXbUOeRUkXfRJic9QWslgXV91rhpCuFjSLHObKz1XTLy3+l2Taq58mYLd3oMomKMiTI6mTYGpInPa3iF9r44ioUupywUxx7laqP4+llizttk6ahPEubdgN5Vea5UXQ+j/MOR447LA5Clopcg4ko2J/4FmiqMpQCSVYMThXS6WfGkSed89pAGqZx6kJP9cnJX47M/rf1LymDl79i4lnOVqQqxWZZDv9/InyzeTSipvKjSGyEukzRpP7HV9b51uo272Gp6V11/bWAt/Pvi4+fMgBDpZMJsjrrUdF/QvVZyxpRpAWycFsFKa0g4NoKvI/6O8jVhxFV8FY396CDJ2+2Q00z26Xf+6BZQG5rT9ESwqk+/D1M7KC3t/Hliqyow8tqbS0/ATu0btAlhDsMuIlOu8MG7Vnjjv6auw2bnoiRwdw0zpT4xn8uO7dGlXI2OzBGNNuAGf4nzWnwmGnK+ufHrG8lfjVbohPApNkZOAoJ4ecOop2U23mfuH4ncuTdGLzNRMQn1mpjOoLMphMOzGW2i+Ok1GLZzI=
