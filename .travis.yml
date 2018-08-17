@@ -6,6 +6,8 @@ install: true
 before_script: true
 script: echo "true"
 notifications:
+  email:
+    - mail@demin.co
   webhooks:
     urls:
       secure: aQQublnY12hFA4M9W0LVTiefHoruRH/TtiTq9wfhR48jCXyoZrA2d2BsyEc/IcbHVWsT3KduTEmMp6t3PUBgPfFU4dqyOAmII0gA1t4Dme480lGMQyyUfam31tN+pikx0DkpWh3JmlX2UNdEjYy2ppAfO82eEDIfKUT3QeFJOZx6erPEkGL3xRMjN0WgygE/nPYssPlMzPA+qLHZzozWJSbY8fwyGt34D2Jt4RhiT3iU3wdJuiIwNShx5i+XwTSkYv/i0lAISQWSxX/psoBCTxB1c7ybHaIeP5ON1mrUJVXMWVIp9b99O6/Zxczj3rvlLhxpekA4LyHoYEMSOv7WOThDLKgxU5i8Eay3vwIWt2dLw2/ZbLvOJ0QFkrf4x9okSYo9cnnlHZIgLqpV7RRYFuUbnRQI3HqR+3/bwsMqDM/A1rJGDuIL5vQ6WSum0TjwN3aQ4yXxg87l2dihxy9eHNAuec1AgLLdw1O8CvAxVs1GD8Evw1jMLFP6Ysyfj8orVndtbU6OV9CYFA28XZyM8out0x6/FXhnNInJNqPha5nk3pV5o95+fw/iRbjo9t3EO0rBa3HKboO+3oktjXmYge0sw7ReQByg3GDm+x7h0lHja1yVj2TQseQKzNrYqw4TL2PHQhiSrVASRrCjEwM0c6MPltpseSmQTnGVCQ+1mTU=
